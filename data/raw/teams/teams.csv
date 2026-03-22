@@ -1,0 +1,9 @@
+team_id,team_name,org_unit,manager_name
+T1,Payments Platform,Engineering,Manager_1
+T2,Auth Systems,Engineering,Manager_2
+T3,Checkout Experience,Engineering,Manager_3
+T4,Search Infrastructure,Engineering,Manager_4
+T5,Notifications,Engineering,Manager_5
+T6,Customer Data,Engineering,Manager_6
+T7,Observability,Engineering,Manager_7
+T8,Recommendations,Engineering,Manager_8

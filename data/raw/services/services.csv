@@ -1,0 +1,13 @@
+service_id,service_name,domain,criticality,owner_team_id,is_active
+S1,payment-api,commerce,high,T3,True
+S2,fraud-service,commerce,medium,T5,True
+S3,auth-service,payments,medium,T6,True
+S4,user-session,commerce,medium,T4,True
+S5,checkout-api,commerce,high,T6,True
+S6,search-api,payments,high,T4,True
+S7,email-service,commerce,low,T5,True
+S8,push-service,infra,low,T5,True
+S9,customer-profile,commerce,high,T7,True
+S10,event-processor,identity,low,T2,True
+S11,metrics-collector,identity,medium,T6,True
+S12,recommendation-engine,commerce,high,T6,True

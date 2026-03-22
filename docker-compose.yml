@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: postgres:16
+    container_name: opspulse_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: opspulse
+      POSTGRES_PASSWORD: opspulse
+      POSTGRES_DB: opspulse_dw
+    ports:
+      - "5432:5432"

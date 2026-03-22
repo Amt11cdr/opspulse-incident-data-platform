@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw
+    database: opspulse_dw
+    schema: raw
+    tables:
+      - name: teams
+      - name: services
+      - name: deployments
+      - name: incidents
